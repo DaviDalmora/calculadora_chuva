@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+        <meta charset="utf-8">
+        <title>Calculadora Chuva</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h3>CALCULADORA DE CHUVA</h3>
+            <h4>Enchentes Rio Grande do Sul</h4>
+        </header>
+        <br>
+
+        <section class="container" id="container1"> 
+            <br>
+            <label for="valor1">Informe quantos mm choveram</label>
+            <br>
+            <input type="number" id="valor1" placeholder="Insira aqui">
+            <br><br>
+
+            <label for="valor2">Informe a área da cidade (m²)</label>
+            <br>
+            <input type="number" id="valor2" placeholder="Insira aqui">
+            <br><br>
+
+            <button onclick="calc()">CALCULAR</button>
+
+            <button onclick="clear_inputs()">LIMPAR</button>
+            <br><br>
+
+            <p><b>A quantidade em litros de água que choveu é de: <u><span id="span"></span></u></b></p>
+            <script src="js/javascript_calc_chuva.js"></script>
+            <br>
+            <br>
+        </section>
+        <br><br>
+
+        <footer>
+            <p class="footer_config">Contatos:</p>
+            <p class="footer_config">Instagram: terceirao_sesi2024</p>
+            <p class="footer_config">Email: terceirao2024sesi@gmail.com</p>
+        </footer>
+    </body>
+</html>
